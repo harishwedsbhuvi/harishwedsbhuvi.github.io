@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+
+header .logo {
+  font-family: VT323;
+  position: fixed;
+  color: #fff;
+  top: 0;
+  height: 50px;
+  font-size: 3em;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  position: fixed;
+  color: #ffffff;
+  margin-bottom: 15px;
+  padding-bottom: 75px;
+}
+
+a {
+  position: fixed;
+  text-decoration: none;
+  color: #f4f4f4;
+  padding-left: 22px;
+  margin: 0;
+}
+
+h2 {
+  font-family: VT323;
+  color: #fff;
+  font-size: 3.8em;
+  font-style: italic;
+  letter-spacing: 7px;
+}
+
+h3 {
+  font-family: Open Sans;
+  color: #fff;
+}
+
+.Reminder_Sec {
+  position: fixed;
+  bottom: 25px;
+  padding: 45px;
+  text-align: right;
+  right: 0;
+}
+
+.Line2 {
+  padding-top: 30px;
+  line-height: 45px;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 75%;
+  height: 30px;
+  color: #fff;
+}
+
+input[value] {
+  color: #dcdc;
+}
+
+input[type="email"]:focus {
+  border: none;
+  border-bottom: 1.5px solid #fff;
+}
+
+.button {
+  border: 0.5px solid #fff;
+  outline: none;
+  font-family: Open Sans;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+  height: 35px;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 0.5px solid #000;
+}
